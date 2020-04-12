@@ -16,6 +16,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "semantic-ui-css": "^2.4.1",
     "sirv-cli": "^0.4.4"
   },
   "keywords": [
