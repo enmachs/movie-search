@@ -9,6 +9,13 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",
     "@rollup/plugin-node-resolve": "^7.0.0",
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.5",
     "rollup": "^1.20.0",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
@@ -29,5 +36,10 @@
   "bugs": {
     "url": "https://github.com/enmachs/movie-search/issues"
   },
-  "homepage": "https://github.com/enmachs/movie-search#readme"
+  "homepage": "https://github.com/enmachs/movie-search#readme",
+  "husky": {
+    "hooks": {
+      "pre-push": "eslint ."
+    }
+  }
 }
